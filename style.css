@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*Chamando a fonte*/
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 0.85rem; /*REM é o nosso padrão (regras atuais)*/
+
+    /*Bordas View*/
+    /*border: solid 1px #000;*/
+}
+
+.caixa {
+  border: 1px solid #ac1f61;
+  background-color: #fff0f5;
+  width: 190px;
+  padding: 15px 12px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+
+.container-pai {
+    width: 200px;
+    height: 200px;
+
+    /*FlexBox*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-top: 100px;
+}
+
+.container-button {
+    width: 160px;
+    padding: 5px;
+    gap: 5px;
+
+    /*FlexBox*/
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.caixa-titulo-imagem {
+  border: 1px solid #ac1f61;
+  background-color: #fff0f5;
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 1px; 
+}
+
+.caixa-titulo-imagem h1 {
+  font-size: 14px;
+  color: rgb(139, 12, 61);
+  margin: 0;
+}
+
+.caixa-titulo-imagem img.logo {
+  width: 40px; /* Ajusta o tamanho da logo */
+  height: auto;
+  border-radius: 4px;
+}
+
+
+.group-maiuscula {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+}
+
+.group-maiuscula-limpar {
+    display: flex;
+    gap: 5px; 
+}
+
+/*Botões*/
+.btn {
+    color: rgb(139, 12, 61);
+    cursor: pointer;
+    width: 76px;
+    height: 25px;
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid #ac1f61;
+    background-color: hsl(325, 78%, 86%);
+}
+
+.btn2 {
+    color: rgb(139, 12, 61);
+    cursor: pointer;
+    width: 76px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid #ac1f61;
+    background-color: hsl(325, 78%, 86%);
+}
+
+.btn3 {
+    color: rgb(139, 12, 61);
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid #ac1f61;
+    background-color: hsl(325, 78%, 86%);
+}
+
+.btn4 {
+    color: rgb(139, 12, 61);
+    cursor: pointer;
+    height: 25px;
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid #ac1f61;
+    background-color: hsl(325, 78%, 86%);
+}
+
+#btnMinuscula {
+    margin-left: -75px; 
+}
+
+/*Cabeçalho*/
+.logo {
+    width: 20px; 
+    height: auto;
+    margin-right: 130px;  
+    position: relative;   
+    top: 23px;          
+}
+
+.input-text {
+    margin-top: 4px;
+    width: 150px;
+    height: 25px;
+    padding: 4px;
+    margin-bottom: 2px;
+    border: 1px solid #ac1f61;
+    border-radius: 4px;
+    background-color: #ffffff
+}
+
+.cabecalho {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 12px;
+}
+
+/*Resultado*/
+.result {
+    width: 150px;        
+    height: 150px;        
+    padding: 8px;
+    font-size: 0.85rem;
+    border: 1px solid #ac1f61;
+    border-radius: 4px;
+    background-color: #ffffff; 
+    color: #888;        
+    overflow-y: auto;   
+    min-height: 70px;  
+}
+
+/*Rodapé*/
+.text-info {
+    font-size: 0.85rem;
+    color: #050505; 
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+.text-info p, 
+.text-info a {
+    display: block; 
+    font-size: 12px; 
+}
+

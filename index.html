@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Transforme Textos</title>
+  </head>
+  <body>
+    <div class="caixa">
+        <div class="container-pai">
+            <header class="cabecalho"></header>
+
+        <div class="caixa-titulo-imagem">
+            <img src="/icons/logo_tt16.png" alt="Imagem da logo" class="logo" />
+            <h1>TRANSFORME textos</h1>
+        </div>
+
+            <input type="text" id="input-text" class="input-text" maxlength="500" placeholder="Digite o texto aqui" required>
+            
+            <div class="container-button">
+            <div class="group-maiuscula">
+                <button class="btn" id="btnMaiuscula">MAIÚSCULA</button>
+                <div class="group-maiuscula-limpar">
+                <button class="btn2" id="btnPrimeiraLetra">1º Letra Maiúscula</button>
+                <button class="btn3" id="btnLimpar">LIMPAR</button>
+                </div>
+                <button class="btn4" id="btnContar">Contar Caracteres</button>
+            </div>
+            <button class="btn" id="btnMinuscula">minúscula</button>
+        </div>
+        
+        <div id="result" class="result">Resultado:</div>
+
+            <div id="text-info" class="text-info">
+            <p>Para mais informações entre em contato com: |</p>
+            <a href="link" target="_blank">Modelo</a>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </div>
+        
+  </body>
+</html>
+
