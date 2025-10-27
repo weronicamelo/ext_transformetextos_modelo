@@ -12,20 +12,21 @@
 }
 
 .caixa {
-  border: 1px solid #ac1f61;
-  background-color: #fff0f5;
-  width: 190px;
-  padding: 15px 12px;
-  border-radius: 6px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 15px;
+    border: 1px solid #ac1f61;
+    background-color: #fff0f5;
+    width: 220px;
+    padding: 55px 40px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;   
+    margin-top: 35px; 
 }
 
-
 .container-pai {
-    width: 200px;
+    width: 150px;
     height: 200px;
 
     /*FlexBox*/
@@ -34,101 +35,78 @@
     justify-content: center;
     align-items: center;
     gap: 2px;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .container-button {
     width: 160px;
     padding: 5px;
     gap: 5px;
-
+    
     /*FlexBox*/
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .caixa-titulo-imagem {
-  border: 1px solid #ac1f61;
-  background-color: #fff0f5;
-  width: 190px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 1px; 
+    border: 1px solid #ac1f61;
+    background-color: #fff0f5;
+    width: 180px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 20px; 
+    position: relative;
 }
 
 .caixa-titulo-imagem h1 {
-  font-size: 14px;
-  color: rgb(139, 12, 61);
-  margin: 0;
+    font-size: 14px;
+    color: rgb(139, 12, 61);
+    margin-left: 30px;
+    position: absolute;
 }
 
 .caixa-titulo-imagem img.logo {
-  width: 40px; /* Ajusta o tamanho da logo */
-  height: auto;
-  border-radius: 4px;
-}
-
-
-.group-maiuscula {
-    display: flex;
-    flex-direction: column; 
-    gap: 5px;
-}
-
-.group-maiuscula-limpar {
-    display: flex;
-    gap: 5px; 
+    width: 25px; 
+    height: auto;
+    border-radius: 4px;           
+    position: static;
+    top: 1px;
+    margin-left: -10px;
 }
 
 /*Botões*/
 .btn {
     color: rgb(139, 12, 61);
     cursor: pointer;
-    width: 76px;
+    border: 1px solid #ac1f61;
+    border-radius: 4px;
+    background-color: hsl(325, 78%, 86%);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 72px;
     height: 25px;
-    padding: 2px;
-    border-radius: 4px;
-    border: 1px solid #ac1f61;
-    background-color: hsl(325, 78%, 86%);
+    gap: 5px;
 }
 
-.btn2 {
-    color: rgb(139, 12, 61);
-    cursor: pointer;
-    width: 76px;
+.btn-primeira {
     height: 40px;
-    padding: 2px;
-    border-radius: 4px;
-    border: 1px solid #ac1f61;
-    background-color: hsl(325, 78%, 86%);
 }
 
-.btn3 {
-    color: rgb(139, 12, 61);
-    cursor: pointer;
-    width: 70px;
+.btn-limpar {
     height: 40px;
-    padding: 2px;
-    border-radius: 4px;
-    border: 1px solid #ac1f61;
-    background-color: hsl(325, 78%, 86%);
 }
 
-.btn4 {
-    color: rgb(139, 12, 61);
-    cursor: pointer;
-    height: 25px;
-    padding: 2px;
-    border-radius: 4px;
-    border: 1px solid #ac1f61;
-    background-color: hsl(325, 78%, 86%);
-}
-
-#btnMinuscula {
-    margin-left: -75px; 
+.btn-contar {
+    width: 150px;
 }
 
 /*Cabeçalho*/
@@ -141,7 +119,7 @@
 }
 
 .input-text {
-    margin-top: 4px;
+    margin-top: -14px;
     width: 150px;
     height: 25px;
     padding: 4px;
@@ -157,10 +135,6 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-}
-
-h1 {
-    font-size: 12px;
 }
 
 /*Resultado*/
@@ -180,14 +154,15 @@ h1 {
 /*Rodapé*/
 .text-info {
     font-size: 0.85rem;
-    color: #050505; 
+    color: #666363; 
     text-align: center;
-    padding-bottom: 11px;
+    padding-bottom: 5px;
+    margin-top: 9px;
 }
 
 .text-info p, 
 .text-info a {
     display: block; 
-    font-size: 12px; 
+    font-size: 11px; 
 }
 
