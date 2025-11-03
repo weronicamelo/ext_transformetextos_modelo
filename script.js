@@ -19,8 +19,8 @@ window.document.addEventListener("DOMContentLoaded", function(){
     if (inputText.length > 0) {
         inputText = inputText.toLowerCase();
 
-        let resultado = inputText.replace(/(?:^|\.\s*)([a-z])/g, function(match, p1) {
-            return match.replace(p1, p1.toUpperCase());
+        let resultado = inputText.replace(/(^|[.!?]\s+)([a-zà-ú])/g, function(match, before, letter) {
+             return before + letter.toUpperCase();
         });
 
         document.querySelector("#result").innerHTML = resultado;
